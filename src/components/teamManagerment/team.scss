@@ -1,0 +1,188 @@
+.teamProjectContainer {
+  .projectListTitle {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: $theme;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 20px;
+  }
+  .ant-card {
+    margin-bottom: 10px;
+    .ant-card-head {
+      min-height: 40px;
+      .cardTitle {
+        i {
+          font-size: 16px;
+          margin-right: 10px;
+          color: $theme;
+        }
+      }
+    }
+    .ant-card-body {
+      padding: 20px 24px;
+    }
+  }
+}
+
+.teamProjectDetailContent {
+  width: 100%;
+  .contentHeader {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .projectTitle {
+      width: 60%;
+      height: 180px;
+      padding-right: 30px;
+    }
+    .timeLine {
+      width: 40%;
+      height: 180px;
+      padding-left: 30px;
+    }
+    .tagGroup {
+      width: 100%;
+      height: 80px;
+      p {
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+    .description {
+      width: 100%;
+      height: 210px;
+      p {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+      .descriptionContent {
+        width: 100%;
+        height: 160px;
+        padding: 10px 20px;
+        border: 1px solid $gray-500;
+        line-height: 20px;
+      }
+    }
+    .distribution {
+      width: 100%;
+      padding-right: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.teamFeeContainer {
+  .teamFeeTitle {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: $theme;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 20px;
+  }
+  .cardGroup{
+    .ant-card {
+        margin-bottom: 10px;
+        .ant-card-head {
+          min-height: 40px;
+          .cardTitle {
+            i {
+              font-size: 16px;
+              margin-right: 10px;
+              color: $theme;
+            }
+          }
+        }
+        .ant-card-body {
+          padding: 20px 24px;
+          i {
+            font-size: 16px;
+            margin-right: 10px;
+            color: $theme;
+          }
+        }
+      }
+  }
+}
+
+.teamFeeDetail{
+  .feeDetailTitle {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: $theme;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 20px;
+  }
+}
+
+.memberFeeContainer{
+  .memberFeeTitle{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: $theme;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 20px;
+  }
+  .memberFeeContent{
+    .projectCardGroup{
+      margin-top: 20px;
+    }
+  }
+}
+
+.addProjectModal{
+  .inforContainer{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    .ant-form-item{
+      margin-bottom: 15px;
+      .ant-col{
+        height: 40px;
+      }
+    }
+    .BtnGroup {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+      margin-top: 45px;
+      .ant-btn{
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+        border-radius: 3px;
+        margin-right: 10px;
+        border: 1px solid #b6b6ba;
+        color: #777f97;
+        &:nth-child(2) {
+          background-color: #2a7fff;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.memberFileContainer {
+  width: 100%;
+  .MemberFileData {
+    .selectsBox {
+      margin-bottom: 20px;
+      .ant-select {
+        margin-right: 15px;
+        width: 140px;
+      }
+      .ant-btn {
+        width: 100px;
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .MemberStatusData {
+    .selectsBox {
+      margin-bottom: 20px;
+      .ant-select {
+        margin-right: 15px;
+        width: 140px;
+      }
+      .ant-btn {
+        width: 100px;
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+.TaskBookContainer{
+  width: 100%;
+  .TaskBookTitle{
+    height: 280px;
+    p{
+      line-height: 25px;
+      font-size: 16px;
+      font-weight: 600;
+      &:nth-last-child(2){
+        color: red;
+        font-size: 14px;
+        font-weight:400;
+      }
+    }
+    
+  }
+  .TaskBookContent{
+    height: 340px;
+  }
+  .TaskBookFoot{
+    height: 50px;
+    .ant-btn{
+      margin-right: 10px;
+    }
+  }
+}
+
+.ThesisProgressContainer{
+  .progressDone{
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .ant-btn{
+    margin-top: 15px;
+  }
+}

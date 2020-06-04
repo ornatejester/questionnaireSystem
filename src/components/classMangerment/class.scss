@@ -1,0 +1,67 @@
+.MajorClassContainer {
+  .ClassScheduleContent {
+    .rowBox {
+      p {
+        margin-bottom: 5px;
+        &:nth-child(1) {
+          font-size: 16px;
+          font-weight: 600;
+        }
+        &:nth-child(2) {
+          font-size: 15px;
+        }
+        &:nth-child(3) {
+          font-size: 14px;
+          color: $gray-500;
+        }
+      }
+    }
+  }
+}
+
+.lectureContainer {
+  .divider {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: $theme;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 20px;
+  }
+}
+
+.lectureContent {
+  .ProgressBox {
+    width: 90%;
+    p {
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  .listTitle {
+    i {
+      margin-right: 5px;
+      color: #286fb7;
+    }
+    font-size: 15px;
+  }
+  .listContent {
+      padding: 5px 0px;
+      margin-bottom: 4px;
+      .ant-input{
+        width: 260px;
+        margin-left: 10px;
+        margin-right: 15px;
+      }
+    }
+    i {
+      margin-right: 5px;
+      color: #286fb7;
+    }
+}

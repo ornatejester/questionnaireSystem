@@ -1,0 +1,27 @@
+// 引入蚂蚁库样式
+@import '~antd/dist/antd.css';
+
+//引入主题颜色
+@import './theme.scss';
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: $gray-100;
+}
+
+// 引入组件样式
+@import '../pages/login/login.scss';
+@import '../pages/home/home.scss';
+@import '../components/base/base.scss';
+
+//功能模块的样式
+@import '../components/memberManagerment/member.scss';
+@import '../components/systemManagerment/system.scss';
+@import '../components/classMangerment/class.scss';
+@import '../components/teamManagerment/team.scss';
